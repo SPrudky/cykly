@@ -6,7 +6,17 @@ namespace cykly
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            int cislo = 1;
+            while (cislo <=10)
+            {
+                Console.WriteLine(cislo);
+                cislo++;
+                
+            }
+            Console.ReadLine();
+
+
+
+        } 
     }
 }
